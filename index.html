@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Alecu Digital Strategies — Software & Copywriting</title>
+    <meta
+      name="description"
+      content="Alecu Digital Strategies — dezvoltare de aplicații web și mobile, texte pentru reclame, site-uri și emailuri. Experiență software din 2011."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b4dff'/%3E%3Ctext x='10' y='43' font-size='26' font-family='Arial' font-weight='bold' fill='white'%3Eads%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="translations.js" defer></script>
+    <script src="i18n.js" defer></script>
+    <script src="project-images.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="portrait-mesh.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main" data-i18n="skip"></a>
+    <header>
+      <a href="#" class="brand" aria-label="Alecu Digital Strategies"
+        ><span class="mark">ads.</span><span>Alecu Digital Strategies</span></a
+      >
+      <nav aria-label="Main">
+        <a href="#services" data-i18n="nav.services"></a
+        ><a href="#work" data-i18n="nav.work"></a
+        ><a href="#about" data-i18n="nav.about"></a>
+      </nav>
+      <div class="header-right">
+        <div class="languages" aria-label="Language">
+          <button type="button" data-lang="ro" aria-pressed="true">RO</button
+          ><span>/</span
+          ><button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="#contact" class="header-contact" data-i18n="nav.contact"></a>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">SOFTWARE DEVELOPMENT & COPYWRITING</p>
+          <h1 data-i18n-html="hero.title"></h1>
+          <p class="intro" data-i18n="hero.intro"></p>
+          <div class="actions">
+            <a class="button primary" href="#work" data-i18n="hero.work"></a
+            ><a class="text-link" href="#contact" data-i18n="hero.contact"></a>
+          </div>
+          <div class="hero-meta">
+            <span data-i18n="hero.experience"></span
+            ><span data-i18n="hero.location"></span>
+          </div>
+        </div>
+        <div class="portrait-area">
+          <div class="portrait placeholder">
+            <span class="corner c1"></span><span class="corner c2"></span>
+            <button class="portrait-reveal" type="button" aria-pressed="false" aria-labelledby="portrait-label" disabled>
+              <img class="portrait-photo" data-src="images/portrait.jpg" alt="George Alecu" />
+              <span class="portrait-prompt">
+                <span class="placeholder-plus" aria-hidden="true">+</span>
+                <span id="portrait-label" data-i18n="portrait.title"></span>
+                <small data-i18n="portrait.placeholder"></small>
+              </span>
+            </button>
+          </div>
+          <div class="portrait-caption">
+            <span>01 / ALECU DIGITAL STRATEGIES</span
+            ><span>DEVELOPER & COPYWRITER</span>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="wrap section">
+        <div class="section-top">
+          <p class="eyebrow" data-i18n="services.eyebrow"></p>
+          <h2 data-i18n-html="services.title"></h2>
+        </div>
+        <div class="services">
+          <article class="service">
+            <span class="service-icon">&lt;/&gt;</span>
+            <h3>Software development</h3>
+            <p data-i18n="services.software.description"></p>
+            <ul>
+              <li data-i18n="services.software.web"></li>
+              <li data-i18n="services.software.business"></li>
+              <li data-i18n="services.software.integrations"></li>
+            </ul>
+          </article>
+          <article class="service">
+            <span class="service-icon">Aa</span>
+            <h3>Copywriting</h3>
+            <p data-i18n="services.copy.description"></p>
+            <ul>
+              <li data-i18n="services.copy.ads"></li>
+              <li data-i18n="services.copy.web"></li>
+              <li data-i18n="services.copy.email"></li>
+            </ul>
+          </article>
+        </div>
+        <div class="combined">
+          <span class="plus">+</span>
+          <p data-i18n-html="services.combined"></p>
+        </div>
+      </section>
+      <section id="work" class="work-section">
+        <div class="wrap section">
+          <div class="section-top">
+            <p class="eyebrow" data-i18n="work.eyebrow"></p>
+            <h2 data-i18n-html="work.title"></h2>
+          </div>
+          <div id="projects" class="projects"></div>
+        </div>
+      </section>
+      <section id="about" class="wrap section about">
+        <div>
+          <p class="eyebrow" data-i18n="about.eyebrow"></p>
+          <h2 data-i18n-html="about.title"></h2>
+          <div class="signature">
+            Alecu Digital Strategies<span>Developer & Copywriter</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="lead" data-i18n="about.experience"></p>
+          <p data-i18n="about.approach"></p>
+          <p data-i18n="about.copywriting"></p>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <div class="wrap section contact-grid">
+          <div>
+            <p class="eyebrow" data-i18n="contact.eyebrow"></p>
+            <h2 data-i18n-html="contact.title"></h2>
+            <p data-i18n="contact.intro"></p>
+            <a class="email" href="mailto:george.alecu.81@gmail.com"
+              >george.alecu.81@gmail.com</a
+            >
+            <div class="contact-links">
+              <a
+                href="https://wa.me/40762396862"
+                target="_blank"
+                rel="noopener noreferrer"
+                >WhatsApp ↗</a
+              ><a
+                href="https://www.upwork.com/freelancers/~01311460bed8f92a17?mp_source=share"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Upwork ↗</a
+              >
+            </div>
+            <small>+40 762 396 862</small>
+          </div>
+          <form id="contact-form">
+            <div class="form-row">
+              <label
+                ><span data-i18n="contact.name"></span
+                ><input
+                  name="name"
+                  autocomplete="name"
+                  required
+                  maxlength="100" /></label
+              ><label
+                >Email<input
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  maxlength="180"
+              /></label>
+            </div>
+            <label
+              ><span data-i18n="contact.service"></span
+              ><select name="service">
+                <option value="Software development">
+                  Software development
+                </option>
+                <option value="Copywriting">Copywriting</option>
+                <option value="Software + Copywriting">
+                  Software + Copywriting
+                </option>
+              </select></label
+            ><label
+              ><span data-i18n="contact.message"></span
+              ><textarea
+                name="message"
+                rows="4"
+                required
+                maxlength="4000"
+              ></textarea>
+            </label>
+            <p class="form-note" data-i18n="contact.note"></p>
+            <button
+              class="button primary"
+              type="submit"
+              data-i18n="contact.submit"
+            ></button>
+            <p id="form-status" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      <a class="brand" href="#"
+        ><span class="mark">ads.</span>Alecu Digital Strategies</a
+      ><span>© <span id="year"></span> Alecu Digital Strategies</span
+      ><a href="#main" data-i18n="footer.top"></a>
+    </footer>
+  </body>
+</html>
