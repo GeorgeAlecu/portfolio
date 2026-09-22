@@ -53,7 +53,7 @@ function escapeAttr(value) {
     /[&<>"']/g,
     (c) =>
       ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
-        c
+      c
       ],
   );
 }
@@ -256,7 +256,7 @@ function openImageViewer(slides, initialIndex, title, trigger, syncGallery) {
 }
 
 let language =
-  new URLSearchParams(location.search).get("lang") === "en" ? "en" : "ro";
+  new URLSearchParams(location.search).get("lang") === "ro" ? "ro" : "en";
 function render(lang) {
   language = lang;
   document.documentElement.lang = lang;

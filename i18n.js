@@ -1,15 +1,15 @@
 // Serviciu de traducere pentru scripturi clasice (funcționează și prin file://).
 window.I18n = (() => {
-  let language = "ro";
+  let language = "en";
 
   function t(key) {
     return (
-      window.TRANSLATIONS[language]?.[key] ?? window.TRANSLATIONS.ro[key] ?? key
+      window.TRANSLATIONS[language]?.[key] ?? window.TRANSLATIONS.en[key] ?? key
     );
   }
 
   function apply(lang) {
-    language = Object.hasOwn(window.TRANSLATIONS, lang) ? lang : "ro";
+    language = Object.hasOwn(window.TRANSLATIONS, lang) ? lang : "en";
     document.documentElement.lang = language;
     document.querySelectorAll("[data-i18n]").forEach((element) => {
       element.textContent = t(element.dataset.i18n);
